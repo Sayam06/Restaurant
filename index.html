@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>My Restaurant: Order Online</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <!-- Bootstrap modules -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+  <!-- CSS Linked -->
+  <link rel="stylesheet" href="CSS/styles.css">
+  <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+
+  <section id="title">
+    <div>
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="" style="font-size: 200%">My Restaurant</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav navibar">
+            <li class="nav-item">
+              <a class="nav-link" href="#footer" style="font-size: 120%">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#menu" style="font-size: 120%">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.google.com/maps/@22.5635928,88.34344,19z" style="font-size: 120%">Location</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="tagline">Your Food Served Hot and Fresh!<span style="font-size: 30px; font-family: 'Ubuntu', sans-serif;"> <br>and sanitised, obviously(?)</span></h1>
+          <button type="button" class="btn myBtn"> <img class="orderNowPic" src="IMAGES\food.png" alt="">Order Now!</button>
+        </div>
+        <div class="col-lg-6 storeContainer">
+          <img class="titleImage" src="IMAGES/store.png" alt="storePic">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+    <div class="row">
+      <div class="col-lg-4">
+        <img class="tick" src="IMAGES\check.png" alt="">
+        <h3>Easy to order</h3>
+        <p>So easy to order, even your dog could do it.</p>
+      </div>
+      <div class="col-lg-4">
+        <img class="scooter" src="IMAGES\scooter.png" alt="">
+        <h3>Fast Delivery</h3>
+        <p>Hot and fresh delivered at your doorstep.</p>
+      </div>
+      <div class="col-lg-4">
+        <img class="yummy" src="IMAGES\yummy.png" alt="">
+        <h3>Super Tasty</h3>
+        <p>30% money back if the food doesnt trigger your taste buds.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Menu -->
+
+  <section id="menu">
+    <div class="menuCard">
+      <h1 class="menu">What's in our menu?</h1>
+    </div>
+    <div class="row menuRow">
+      <div class="col-lg-4 col-md-6 myCol">
+        <img class="foodPic" src="IMAGES\bhelpuri.png" alt="">
+        <h3 style="  font-family: 'Indie Flower', cursive;">Bhelpuri</h3>
+        <p class="menuPara">Bhelpuri is a savoury snack originating from India, and is also a type of chaat. It is made of puffed rice,
+          vegetables and a tangy tamarind sauce, and has a crunchy texture. Bhel is often identified as a 'beach snack',
+          strongly associated with the beaches of Mumbai, such as Chowpatty or Juhu.</p>
+        <h4>Rs. 120</h4>
+        <button type="button" class="btn myButton">Add</button>
+      </div>
+      <div class="col-lg-4 col-md-6 myCol">
+        <img class="foodPic" src="IMAGES\breadPizza.png" alt="">
+        <h3 style="  font-family: 'Indie Flower', cursive;">Bread Pizza</h3>
+        <p class="menuPara">Bread pizza comes with a lot of mozarella cheese and topppings that will definitely trigger your taste buds.
+          You can customize the dish by asking for extra cheese/chicken/pepperoni which will make it even more delicious!</p>
+        <h4>Rs. 140</h4>
+        <button type="button" class="btn myButton">Add</button>
+      </div>
+      <div class="col-lg-4 col-md-6 myCol">
+        <img class="foodPic" src="IMAGES\cheeseChilliToast.png" alt="">
+        <h3 style="  font-family: 'Indie Flower', cursive;">Cheese Chilli Toast</h3>
+        <p class="menuPara">a simple street food snack prepared with bread slices with cheese spread and chili flavour. basically it is
+          prepared by toasting the bread on tawa or grill with cheese and veggies toppings. You can customize the
+          dish by asking for extra cheese/chicken/pepperoni which will make it even more delicious!</p>
+        <h4>Rs. 135</h4>
+        <button type="button" class="btn myButton">Add</button>
+      </div>
+      <div class="col-lg-4 col-md-6 myCol">
+        <img class="foodPic" src="IMAGES\desiMacaroni.png" alt="">
+        <h3 style="  font-family: 'Indie Flower', cursive;">Desi Macaroni</h3>
+        <p class="menuPara">Macaroni is dry pasta shaped like narrow tubes. Made with durum wheat, macaroni is commonly cut in short lengths;
+          curved macaroni may be referred to as elbow macaroni. Here, we serve the macaroni by adding extra cheese
+          and loads of indian spices! </p>
+        <h4>Rs. 150</h4>
+        <button type="button" class="btn myButton">Add</button>
+      </div>
+      <div class="col-lg-4 col-md-6 myCol">
+        <img class="foodPic" src="IMAGES\eggBiryani.png" alt="">
+        <h3 style="  font-family: 'Indie Flower', cursive;">Egg Biryani</h3>
+        <p class="menuPara">a wholesome one pot meal that will satisfy both your hunger and your taste buds. Also known as Anda Biryani in India,
+          this dish is made by cooking together fragrant long grain basmati rice, spiced hard boiled eggs, perfectly caramelized
+          onions and select aromatic spices, delighting your senses in every bite. </p>
+        <h4>Rs. 100</h4>
+        <button type="button" class="btn myButton">Add</button>
+      </div>
+      <div class="col-lg-4 col-md-6 myCol">
+        <img class="foodPic" src="IMAGES\masalaMaggi.png" alt="">
+        <h3 style="  font-family: 'Indie Flower', cursive;">Masala Maggi</h3>
+        <p class="menuPara">Pretty sure that you have tried making Maggi in your home. But here, we serve you the dish by adding two masala
+          packets instead of 1 along with veggies, cheese!(Chicken/Mushroom/Egg optional).</p>
+        <h4>Rs. 40</h4>
+        <button type="button" class="btn myButton">Add</button>
+      </div>
+      <div class="col-lg-4 col-md-6 myCol">
+        <img class="foodPic" src="IMAGES\matarPaneerRoti.png" alt="">
+        <h3 style="  font-family: 'Indie Flower', cursive;">Matar Paneer and Roti</h3>
+        <p class="menuPara">Mattar paneer, also known as matar paneer, and mutter paneer is a vegetarian North Indian dish and Punjabi dish
+          consisting of peas and paneer in a tomato based sauce, spiced with garam masala. Here we serve it with Rotis.</p>
+        <h4>Rs. 170</h4>
+        <button type="button" class="btn myButton">Add</button>
+      </div>
+      <div class="col-lg-4 col-md-6 myCol">
+        <img class="foodPic" src="IMAGES\shahiPaneerandNaan.png" alt="">
+        <h3 style="  font-family: 'Indie Flower', cursive;">Shahi Paneer and Naan</h3>
+        <p class="menuPara">Shahi paneer is a preparation of paneer, native to the Indian subcontinent, consisting of a thick gravy of cream,
+          tomatoes and Indian spices. Here we serve this dish along with butter-pudina naan.</p>
+        <h4>Rs. 190</h4>
+        <button type="button" class="btn myButton">Add</button>
+      </div>
+      <div class="col-lg-4 col-md-6 myCol">
+        <img class="foodPic" src="IMAGES\vadaPav.png" alt="">
+        <h3 style="  font-family: 'Indie Flower', cursive;">Vada Pav</h3>
+        <p class="menuPara">Vada pav, alternatively spelt wada pao, is a vegetarian fast food dish native to the state of Maharashtra.
+          The dish consists of a deep fried potato dumpling placed inside a bread bun sliced almost in half through
+          the middle. It is generally accompanied with one or more chutneys and a green chili pepper.</p>
+        <h4>Rs. 50</h4>
+        <button type="button" class="btn myButton">Add</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="footer">
+    <div class="myRow">
+      <div class="contactUs">
+        <h1 class="menu">Contact Us</h1>
+      </div>
+      <div class="row myrow">
+        <div class="col-lg-3 col-md-3 col-sm-6">
+          <button type="button" class="btn"><a href="https://www.facebook.com/"><img class="facebook" src="IMAGES\facebook.png" alt=""></a></button>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6">
+          <button type="button" class="btn"><a href="https://www.instagram.com/"> <img class="instagram" src="IMAGES\instagram.png" alt=""></a></button>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6">
+          <button type="button" class="btn" href""><a href="https://twitter.com/?lang=en"> <img class="twitter" src="IMAGES\twitter.png" alt=""></a></button>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6">
+          <button type="button" class="btn"><a href="mailto:sayamgul06@gmail.com"><img class="mail" src="IMAGES\mail.png" alt=""></a> </button>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+
+  <!-- Footer -->
+
+  <footer>
+
+    <p class="copyright">© Copyright 2021 My Restaurant</p>
+
+  </footer>
+
+
+</body>
+
+</html>
